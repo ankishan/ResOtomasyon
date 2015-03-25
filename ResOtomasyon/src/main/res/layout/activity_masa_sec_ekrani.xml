@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/masaSec"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.res_otomasyon.resotomasyon.MasaSecEkrani">
+
+    <ExpandableListView
+        android:id="@+id/expandableListViewMasaSec"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:transcriptMode="disabled"
+        android:layout_marginBottom="45dp">
+    </ExpandableListView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masaları Kaydet"
+        android:id="@+id/masaKaydet"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
